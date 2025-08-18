@@ -3,7 +3,7 @@ package com.hossvel;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("/greet")
+@Path("/greeting")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 public class GreetingResource {
