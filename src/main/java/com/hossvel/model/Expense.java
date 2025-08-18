@@ -1,4 +1,4 @@
-package com.hossvel;
+package com.hossvel.model;
 
 
 import java.math.BigDecimal;
@@ -7,7 +7,7 @@ import java.util.UUID;
 
 public class Expense {
 
-    enum PaymentMethod {
+    public enum PaymentMethod {
         CASH, CREDIT_CARD, DEBIT_CARD,
     }
 

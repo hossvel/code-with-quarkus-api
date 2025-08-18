@@ -1,4 +1,4 @@
-package com.hossvel;
+package com.hossvel.resource;
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;

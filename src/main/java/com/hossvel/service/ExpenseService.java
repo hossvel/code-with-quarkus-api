@@ -1,6 +1,7 @@
-package com.hossvel;
+package com.hossvel.service;
 
 
+import com.hossvel.model.Expense;
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Collections;

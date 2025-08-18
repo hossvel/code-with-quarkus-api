@@ -1,13 +1,11 @@
-package com.hossvel;
+package com.hossvel.resource;
 
+import com.hossvel.service.PostService;
+import com.hossvel.model.Post;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
-import jakarta.ws.rs.core.Response;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import jakarta.inject.Inject;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Path("/posts")

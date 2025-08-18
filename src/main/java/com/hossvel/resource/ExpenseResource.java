@@ -1,6 +1,8 @@
-package com.hossvel;
+package com.hossvel.resource;
 
 
+import com.hossvel.service.ExpenseService;
+import com.hossvel.model.Expense;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.DELETE;

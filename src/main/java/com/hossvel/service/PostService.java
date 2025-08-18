@@ -1,5 +1,6 @@
-package com.hossvel;
+package com.hossvel.service;
 
+import com.hossvel.model.Post;
 import jakarta.enterprise.context.ApplicationScoped;
 
 import java.util.ArrayList;

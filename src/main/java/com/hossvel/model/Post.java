@@ -1,4 +1,4 @@
-package com.hossvel;
+package com.hossvel.model;
 
 public class Post {
     public Long id;
