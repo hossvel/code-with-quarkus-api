@@ -51,6 +51,22 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 
 You can then execute your native executable with: `./target/code-with-quarkus-api-1.0.0-SNAPSHOT-runner`
 
+
+You can create a native executable using:
+
+```shell script
+./mvnw package -Pnative
+```
+
+
+You can ejecutarlo en windows using:
+
+```shell script
+ .\target\code-with-quarkus-api-1.0.0-SNAPSHOT-runner.exe
+```
+
+
+
 If you want to learn more about building native executables, please consult <https://quarkus.io/guides/maven-tooling>.
 
 ## Related Guides
