@@ -81,3 +81,37 @@ If you want to learn more about building native executables, please consult <htt
 Easily start your REST Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+
+### Vamos a generar una imagen nativa y ejecutarlo 
+
+- Add extension empaquetado:
+
+```shell script
+./mvnw quarkus:add-extension -Dextensions="container-image-jib"
+```
+- Configure images:
+quarkus.container-image.build=true
+quarkus.container-image.image=code-with-quarkus-api
+quarkus.container-image.tag=1.0.0
+
+
+
+- run generate image:
+
+```shell script
+./mvnw package -Pnative
+```
+
+- Show Images:
+
+```shell script
+docker images
+```
+- Run container:
+
+```shell script
+docker run -i --rm -p 8080:8080 code-with-quarkus-api
+```
+- proving with curl:
+curl http://localhost:8080/expenses
